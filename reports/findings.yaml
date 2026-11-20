@@ -1,0 +1,61 @@
+# MP059 findings --- fill in every value, keep every key.
+# The marking tool reads this file. Write null only where the comment says so.
+# Use the exact column names and group values from your data files.
+
+group_id: "G185"
+problem_id: "MP059"
+
+data_issues:
+  leaking_column:
+    present: true
+    column: tickets_scanned_pct
+  unit_mixup:
+    present: true
+    column: distance_to_metro_km
+    group_value: Mall
+    factor: 1000
+  sentinel_value:
+    present: true
+    column: ticket_price_rs
+    value: 999
+    count: 65
+  duplicate_rows:
+    present: false
+    count: null
+  stuck_sensor:
+    present: false
+    column: null
+    start_date: null
+    end_date: null
+  target_typos:
+    present: true
+    count: 15
+  spelling_variants:
+    present: false
+    column: null
+    true_levels: null
+
+# Stages 2-4: fill after training / monitoring.
+tracking:
+  experiment_name: null
+  best_run_id: null
+  registered_model_name: null
+  champion_version: null
+
+monitoring:
+  psi:
+    ticket_price_rs: null
+    days_since_release: null
+    star_rating: null
+    show_hour: null
+    screen_seats: null
+    distance_to_metro_km: null
+  most_drifted_feature: null
+  mae_by_group:
+    'City Centre': null
+    'Mall': null
+    'Highway': null
+  worst_served_group: null
+  mae_v1_on_check: null
+  mae_v2_on_check: null
+  decision: null
