@@ -1,8 +1,11 @@
 # MP059 — Cinema Show Occupancy (Indore)
- 
+
 SCSE3040 Machine Learning Operations — Mini Project
-**Group ID:** G185  **Problem ID:** MP059
-**Faculty:** Richa Sharma  **Batch:** 86
+
+- **Group ID:** G185
+- **Problem ID:** MP059
+- **Faculty:** Richa Sharma
+- **Batch:** 86
  
 ## Client
 Indore Single-Screen Owners' Forum. Owners fix show timings a week ahead and
