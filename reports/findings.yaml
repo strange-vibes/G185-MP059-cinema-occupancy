@@ -37,10 +37,10 @@ data_issues:
 
 # Stages 2-4: fill after training / monitoring.
 tracking:
-  experiment_name: null
-  best_run_id: null
-  registered_model_name: null
-  champion_version: null
+  experiment_name: cinema-occupancy
+  best_run_id: b6f2571b3f7b407e93419208ec0b11cf
+  registered_model_name: cinema-occupancy-model
+  champion_version: 1
 
 monitoring:
   psi:
