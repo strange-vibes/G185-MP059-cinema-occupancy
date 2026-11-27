@@ -6,7 +6,8 @@ joblib==1.5.2
 PyYAML==6.0.3
 dvc==3.67.1
 pytest==8.4.2
-fastapi
-uvicorn
-httpx
-
+fastapi==0.165.0
+starlette==1.10.0
+uvicorn==0.54.0
+httpx==0.29.0
+httpx2==2.16.2

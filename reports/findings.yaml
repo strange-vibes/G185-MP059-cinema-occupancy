@@ -40,7 +40,7 @@ tracking:
   experiment_name: cinema-occupancy
   best_run_id: b6f2571b3f7b407e93419208ec0b11cf
   registered_model_name: cinema-occupancy-model
-  champion_version: 1
+  champion_version: 2
 
 monitoring:
   psi:
@@ -56,6 +56,6 @@ monitoring:
     'Mall': null
     'Highway': null
   worst_served_group: null
-  mae_v1_on_check: null
-  mae_v2_on_check: null
-  decision: null
+  mae_v1_on_check: 8.2222
+  mae_v2_on_check: 7.1388
+  decision: promote
